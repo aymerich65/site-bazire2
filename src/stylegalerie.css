@@ -1,0 +1,474 @@
+
+@media screen and (orientation:portrait)and (max-width:767px)  {
+    /*----------prestations--------------*/
+    
+    .containerImageAccueil{
+        /*height: 100%;*/
+      }
+      .blocgalerie_EL{
+        display:none;
+      }
+      
+      .header_EL{
+        display: none;
+      }
+    
+    
+
+  /*********************galerie*****************/
+  .grid-container-galerie {
+    display: grid;
+    grid-template-columns: 1fr; /* Une seule colonne */
+    /*grid-template-rows: 10% 60% 35% 5%;*/
+    height: 100vh;
+    margin: 0%;
+    grid-template-areas:
+    "b"
+    "c"
+    "d";
+    width: 100%;
+ 
+   overflow-x: hidden;
+    
+    background-color: rgba(237, 74, 109, 0);
+  }
+
+
+
+.carousel{
+  /*margin-top: 10%;*/
+ /* position: relative;*/
+ width: 100%;
+ height: auto;
+ overflow-x: 'hidden';
+ 
+}
+.carousel .thumbs-wrapper {
+  margin-top: 10%;
+  /*position: relative;*/
+  /*display: none;*/
+  margin-bottom: 5%;
+  background-color: rgb(237,237,74);
+  padding: 0%;
+height:0%
+}
+  .galerie{
+    /*height: 100vh;*/
+    /*background-color: green;*/
+    /*position:'relative';*/
+    width: 100%;
+  
+  }
+
+.blocImgGalerieDescription{
+  background-color: rgb(237,237,74);
+  margin-bottom: 10%;
+}
+.grid-b .bBgalerie{
+overflow: hidden;
+width: 50%;
+}
+
+.galerieD{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+ 
+
+    
+      
+    }
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media screen and (orientation : landscape)  and (max-width: 1920px) {
+      
+
+.titreGalerie{
+  display: flex;
+  justify-content: center;
+align-items: center;
+  height: 8vh;
+  width: 100%;
+ background-color: #E9ED4A;
+
+ 
+
+}
+
+      .blocgalerie_EL h1{
+        font-size: 5vh;
+        text-align: center;
+        background-color: #4a60ed00;
+        margin: 0%;
+      }
+      
+
+      .bi-camera-fill{
+        width:6vh  ;
+        height: auto;
+        position: relative;
+        left:1vw
+      }
+
+
+
+.grid-container-galerie.galerie{
+    display: none;
+}
+
+.blocgalerie_EL{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.divParentImggalerie_EL{
+    padding: 1%;
+background-color: rgba(87, 87, 87, 0);
+margin: 5%;
+max-width: 40%;
+border: 0.5vw solid rgba(0, 128, 0, 0);
+border-radius: 1vw; 
+grid-template-columns: 100%;
+grid-template-rows: 95% 5%;
+grid-template-areas: "a"
+"b";
+}
+
+.divParentImggalerie_ELajustCenter{
+
+}
+
+
+
+.blocAimggalerie_EL{
+grid-area: a;
+/*border: 0.5vw solid  rgb(100, 100, 100);*/
+width: 70%;
+    height: auto;
+    border-radius: 1vw;
+    border: 0.5vw solid   #E9ED4A;
+
+}
+
+
+
+
+.blocBimggalerie_ELtexte {
+    grid-area: b;
+    background-color:  #E9ED4A;
+    height: auto;
+    margin: 0%;
+    overflow-wrap: break-word;
+    border-radius: 1vw;
+    width: 70%;
+    
+}
+.divParentImggalerie_EL p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 5%;
+}
+
+
+
+
+
+    
+      .blocFooter{
+        display: none;
+      }
+       }
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+/* galerie portrait format large ---------------------------------------------------------------------------------------------------------------------------------------*/
+
+       
+    @media screen and (min-width: 768px)  and (orientation:portrait) {
+      
+
+      .titreGalerie{
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        background-color: #E9ED4A;
+      
+      }
+      
+            .blocgalerie_EL h1{
+              font-size: 3vw;
+              text-align: center;
+              background-color: rgba(0, 0, 255, 0);
+              display: block;
+            }
+            .bi-camera-fill{
+              width:3.5%;
+              height: auto;
+              position: relative;
+          bottom: 0.8vh;
+          left:1vw
+            }
+      .grid-container-galerie.galerie{
+          display: none;
+      }
+      
+      .blocgalerie_EL{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          margin-top: 3%;
+          background-color: rgba(255, 0, 0, 0);
+      }
+      
+      .divParentImggalerie_EL{
+          padding: 1%;
+      background-color: rgba(87, 87, 87, 0);
+      margin: 5%;
+      max-width: 40%;
+      border: 0.5vw solid rgba(0, 128, 0, 0);
+      border-radius: 1vw; 
+      grid-template-columns: 100%;
+      grid-template-rows: 95% 5%;
+      grid-template-areas: "a"
+      "b";
+      }
+      
+      .divParentImggalerie_ELajustCenter{
+      
+      }
+      
+      
+      
+      .blocAimggalerie_EL{
+      grid-area: a;
+      /*border: 0.5vw solid  rgb(100, 100, 100);*/
+      width: 100%;
+          height: auto;
+          border-radius: 1vw;
+          border: 0.5vw solid   #E9ED4A;
+      
+      }
+      
+      
+      
+      
+      .blocBimggalerie_ELtexte {
+          grid-area: b;
+          background-color:  #E9ED4A;
+          height: auto;
+          margin: 0%;
+          overflow-wrap: break-word;
+          border-radius: 1vw;
+          
+      }
+      .divParentImggalerie_EL p{
+          color: rgb(0, 0, 0);
+          text-align: center;
+          font-size: 1.6vw;
+          margin-top: 5%;
+      }
+      
+      
+      
+      
+      
+          
+            .blocFooter{
+              display: none;
+            }
+          }   
+
+
+
+
+
+
+
+
+
+
+          
+    
+
+
+
+
+
+       @media screen and (orientation : landscape)  and (min-width: 1921px) {
+
+        .ContainerGalerie{
+          width: 100vw;
+          /*height: 100vh;*/
+          display: flex;
+          justify-content: center;
+          background: rgb(109, 107, 107);
+          font-size: 1rem;
+        }
+        .ContainerGalerieEnfant{
+          width: 1920px;
+          height: auto;
+          background: rgb(224,224,224);
+        }
+
+              /*header écran large*/
+      .header_EL {
+        display: inline-block;
+        /* height: 14vh; Ajustez la hauteur automatiquement en fonction du contenu */
+        grid-area: a;
+        max-width: 100vw;
+        background-color: rgb(0, 55, 255);
+        height:162px;
+        position: relative;
+      }
+      
+
+
+
+
+
+
+
+
+
+        .titreGalerie{
+          display: flex;
+          justify-content: center;
+          height: auto;
+          width: 100%;
+          background-color: #E9ED4A;
+        
+        }
+        
+              .blocgalerie_EL h1{
+                font-size: 4em;
+                text-align: center;
+                background-color: rgba(0, 0, 255, 0);
+                display: block;
+              }
+              .bi-camera-fill{
+                width:3.5%;
+                height: auto;
+                position: relative;
+            bottom: 5px;
+            left:1vw
+              }
+        .grid-container-galerie.galerie{
+            display: none;
+        }
+        
+        .blocgalerie_EL{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 3%;
+            background-color: rgba(255, 0, 0, 0);
+        }
+        
+        .divParentImggalerie_EL{
+            padding: 1%;
+        background-color: rgba(87, 87, 87, 0);
+        margin: 5%;
+        max-width: 40%;
+        border: 0.5vw solid rgba(0, 128, 0, 0);
+        border-radius: 1vw; 
+        grid-template-columns: 100%;
+        grid-template-rows: 95% 5%;
+        grid-template-areas: "a"
+        "b";
+        }
+        
+        .divParentImggalerie_ELajustCenter{
+        
+        }
+        
+        
+        
+        .blocAimggalerie_EL{
+        grid-area: a;
+        /*border: 0.5vw solid  rgb(100, 100, 100);*/
+        width: 100%;
+            height: auto;
+            border-radius: 1%;
+            border: 0.5vw solid   #E9ED4A;
+        
+        }
+        
+        
+        
+        
+        .blocBimggalerie_ELtexte {
+            grid-area: b;
+            background-color:  #E9ED4A;
+            height: auto;
+            margin: 0%;
+            overflow-wrap: break-word;
+            border-radius: 1vw;
+            
+        }
+        .divParentImggalerie_EL p{
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-size: 1.2rem;
+            margin-top: 5%;
+        }
+        
+        
+        
+        
+        
+            
+              .blocFooter{
+                display: none;
+              }
+               }
+    
+    
+    
+    
+
+

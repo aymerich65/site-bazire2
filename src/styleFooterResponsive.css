@@ -1,0 +1,318 @@
+
+.blocFooter{
+   
+    display: grid;
+    width: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .blocBoutonfooter:active {
+    background-color: rgba(255, 255, 255, 0.575); /* Changez la couleur de fond au survol */
+    /* Autres styles de survol */
+  }
+  
+  
+  .blocA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80%;
+    width: 100%;
+    margin: auto;
+    
+  }
+  
+  .carreIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: 'absolute';
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(248, 255, 51, 0.898) 0%);
+    margin: auto;
+    border-radius: 40%;
+    width: 200%; /* Augmentez la largeur comme souhaité */
+    height: auto;
+    width: 20em; /* Largeur initiale en em (exemple) */
+    height: 10em;
+  }
+  
+  img{
+    width: 90%; /* Force l'image à s'adapter à la largeur de son conteneur */
+    height: auto; /* Assurez-vous que la hauteur s'ajuste automatiquement */
+    margin:auto;
+    padding:0;
+  }
+  
+  
+  
+  .blocB {
+    display: inline-flex;
+    align-items: center;
+    height: 10vh;
+    margin: 0%;
+    /*vertical-align: middle;  Alignez le contenu verticalement */
+    padding-left: 10%;
+  
+  }
+  
+  .ajustLinkBtnFooter{
+    display: flex;
+    margin-top: 12%;
+    margin-left: 1%;
+    padding-bottom: 10%
+  }
+
+
+  .ajustLinkBtnFooter3{
+    display: flex;
+    margin-top: 12%;
+    margin-left: 1%;
+    padding-bottom: 10%
+  }
+
+
+  
+  a {
+    text-decoration: none; /* Supprimer le soulignement des liens */
+    color: inherit; /* Utiliser la couleur par défaut du texte du parent */
+    font-size: 2.5vh;
+    font-weight: 500;
+    
+  } 
+  
+  Link{
+    color:black;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                
+                          @media screen and (min-width: 320px)   {
+
+                            .btnsmalltest{
+                              
+                              height:auto;
+                              background-color: rgba(128, 255, 0, 0);
+                           width: 50%;
+                              
+                            }
+
+                            .blocFooter{
+                            
+                                    display: none;
+                                    width: auto;
+                                    overflow: hidden;
+                                    box-sizing: border-box;
+                                  }
+                            
+                                  .linfootermini a,  .linfootermini2 a,  .linfootermini3 a {  
+                                    color:rgb(0, 0, 0);
+                                    font-weight:700;
+                                  
+                                  }
+                            
+
+                            .blocFooterecranmini img{
+                                display: inline-block;
+                                width:40%;margin: 0%;padding: 0%;
+                            }
+
+                           
+                            
+                            .blocFooterecranmini img{
+                                display: inline-block;
+                                width:40%;
+                            }
+                            
+                            
+                            .linfootermini{                    
+                                transform: translateX(15%);
+                                margin-top: 1%;
+                                height: 10vh !important;
+                             background-color: rgba(137, 43, 226, 0);
+                                
+                            }
+
+
+
+
+
+
+
+
+                            
+                      
+                            .linfootermini2{
+                                transform: translateX(30%);
+                                margin-top: 1%;
+                                
+                            }     
+                            
+                            .linfootermini:active{  
+                               color: rgb(255, 255, 255); 
+                                font-weight: 900;
+                               
+                                color: rgba(255, 255, 255, 0.481); 
+                            }
+
+
+                    
+                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            .linfootermini2:active{  
+                                color: rgb(255, 255, 255);           
+                              
+                               
+                            }    
+                             .linfootermini3:active{
+                               color: rgb(255, 255, 255);            
+                            
+                                
+                            }
+
+
+                            .linfootermini3{
+                              
+                              
+                                transform: translateX(50%);
+                                margin-top: 1%;
+                            }
+                       
+                            .linfootermini a{
+                                font-size: 4vw;
+                                
+                            }
+                            .linfootermini2 a{
+                                font-size: 4vw;
+                            
+                            }
+                            .linfootermini3 a{
+                                font-size: 4vw;
+                            
+                            }
+       
+                     
+                            
+                              } 
+
+                              @media screen and (min-width: 480px)    {
+                                .blocFooter{
+                            
+                                    display: none;
+                                    width: auto;
+                                    overflow: hidden;
+                                    box-sizing: border-box;
+                                  }
+                            
+                              .blocFooterecranmini {
+                              margin-top: 4%;
+                              background-color: rgba(42, 165, 79, 0);
+                              width: 100%;
+                              }
+                            
+                            
+                            .blocFooterecranmini img{
+                                display: inline-block;
+                                max-width:30%;
+                            }
+                            
+                            
+                            .linfootermini{
+                                transform: translateX(10%);
+                                margin-top: 1%;
+                                height: 10vh;
+                                
+                                
+                            }
+                            .linfootermini2{
+                                transform: translateX(30%);
+                                margin-top: 1%;
+                            }
+                            .linfootermini3{
+                                transform: translateX(50%);
+                                margin-top: 1%;
+                            }
+
+
+                            .linfootermini:active{  
+                                color: rgb(255, 255, 255);
+                                 
+                             }
+                             .linfootermini2:active{  
+                                 color: rgb(255, 255, 255);
+                                
+                             }    
+                              .linfootermini3:active{
+                                color: rgb(255, 255, 255);
+                                 
+                             }
+
+
+
+
+
+
+
+                            .linfootermini a{
+                                font-size: 4vw;
+                                
+                            }
+                            .linfootermini2 a{
+                                font-size: 4vw;
+                            
+                            }
+                            .linfootermini3 a{
+                                font-size: 4vw;
+                            
+                            }
+                              }
+                              
+
+                              /*desactivation interface mobile/tablette */
+
+                              @media screen and (min-width: 769px) {
+                               .blocFooterecranmini{
+                                display: none;
+                               }
+                              }
+                            
