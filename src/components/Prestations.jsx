@@ -31,7 +31,7 @@ export default function Prestation() {
     des solutions efficaces pour tous vos projets de construction et de rénovation.</p>
   
 <div className='containerimgPrestationMenuiserie'>
-<img src='/images/illustrationmenuiserie.png' className='imgPrestationMenuiserie'/>
+<img src='/images/illustrationmenuiserie.jpg' className='imgPrestationMenuiserie'/>
 </div>
 <h2 className='prestationTitlesSansJaune'>Menuiseries</h2>
 <p>Les menuiseries sont un élément clé de tout projet de construction ou de rénovation. Que vous cherchiez à installer de nouvelles portes ou fenêtres en PVC, en aluminium ou en bois, je peux vous aider à trouver la 
@@ -39,7 +39,7 @@ export default function Prestation() {
     plus adaptés à votre projet.</p>
 
     <div className='containerimgPrestationMenuiserie'>
-<img src='/images/illustration_isolation.png' className='imgPrestationMenuiserie'/>
+<img src='/images/illustration_isolation.jpg' className='imgPrestationMenuiserie'/>
 </div>
 <h2 className='prestationTitlesSansJaune' >Isolation</h2>
 <p>L'isolation est un élément important de tout projet de construction ou de rénovation, car elle permet de réduire les coûts de chauffage et de climatisation tout en améliorant le confort thermique. Je suis spécialisé 
@@ -47,7 +47,7 @@ export default function Prestation() {
     performances thermiques optimales.</p>
 
     <div className='containerimgPrestationMenuiserie'>
-<img src='/images/illustrationplanchet.png' className='imgPrestationMenuiserie'/>
+<img src='/images/illustrationplanchet.jpg' className='imgPrestationMenuiserie'/>
 </div>
     <h2 className='prestationTitlesSansJaune' >Planchers et parquets</h2>
 <p>La pose de plancher et de parquet est un travail de précision qui nécessite une grande expertise et un souci du détail. Avec plus de 20 ans d'expérience dans ce domaine, je peux vous offrir des conseils personnalisés 

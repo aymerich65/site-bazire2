@@ -27,12 +27,12 @@ export default function Accueil() {
 
   <div className="row1">
   <img
-          src="/images/imageprestatiosnaccueil.png"   
+          src="/images/imageprestatiosnaccueil.jpg"   
           alt='imgaccueil'
 className=' img-fluid' 
  />
    <img
-          src="/images/imageprestatiosnaccueilplate.png"   
+          src="/images/imageprestatiosnaccueilplate.jpg"   
           alt='imgaccueil'
 className=' img-fluid2' 
  />

@@ -54,7 +54,7 @@ export default function Accueil_EL() {
 
 
     <div className="containerimg01">
-      <div className="blocEnfantAContainerimg01"><img src="images/imageprestatiosnaccueil_EL.png" alt="Image 1" className='img_accueil_ELTest img-fluid' /></div>
+      <div className="blocEnfantAContainerimg01"><img src="images/imageprestatiosnaccueil_EL.jpg" alt="Image 1" className='img_accueil_ELTest img-fluid' /></div>
      <div className="blocEnfantBContainerimg01">
       <div className='blocBorduresTexteBlocEnfantBContainerimg01'><div className="titreBlocEnfantBContainerimg01"><h2><Link className="titreBlocEnfant" to="/prestations">Découvrez mes prestations</Link></h2>
         <div className='texteBlocEnfantBContainerimg01'>
@@ -81,7 +81,7 @@ export default function Accueil_EL() {
     <div className="containerimg02">
   <div className="blocEnfantAContainerimg02">
     <img 
-      src="./images/galeireiconephotos2.png" 
+      src="./images/galeireiconephotos2.jpg" 
       alt="Image 1" 
       className='img_accueil_ELTest2 img-fluid' 
     />
@@ -111,7 +111,7 @@ export default function Accueil_EL() {
 <div className="containerimg03">
   <div className="blocEnfantAContainerimg03">
     <img 
-      src="./images/imagecontactaccueil_EL.png" 
+      src="./images/imagecontactaccueil_EL.jpg" 
       alt="Image 1" 
       className='img_accueil_ELTest3 img-fluid' 
     />
